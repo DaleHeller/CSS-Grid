@@ -43,7 +43,6 @@ img {
     grid-template-rows: minmax(100px, auto) minmax(100px, auto) minmax(100px, auto);
     grid-auto-rows: minmax(100px auto);
     grid-gap: 0.6rem;
-    Height: 100%;
 
     align-items: stretch;
 
@@ -74,6 +73,7 @@ img {
     grid-template-columns: repeat(3, 1fr);
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 0.6rem;
+    height: 100%;
 }
 
 .gallery-img {
